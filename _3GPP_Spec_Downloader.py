@@ -3,9 +3,9 @@
 # Author: Yako K. Yako
 #
 #################################################################################################
-#
 # Script to automatically download, rename, and display the title the URL of a requested 
 # 3GPP spec doc number (e.g 16.38.101)
+#
 # HOW TO USE:
 # 1- change the "path" variable in the script to a proper path (e.g. path=r"C:\Users\YOURPC\Desktop\3GPP/")
 # 2- place the file "3GPP_Spec_Titles.xlsx" into the path you choose (optional) 
@@ -18,6 +18,7 @@
 #    false true   -> no download or rename, just display the title of the spec doc number
 # 4- when prompeted "Enter desired 3GPP release.series.doc# (e.g 16.38.101): ", enter the info of the doc you need
 #**note:if you don't provide doc# (e.g 16.38.) the script will download all docs in that series**
+# 5- ENJOY :)
 #
 #################################################################################################
 
