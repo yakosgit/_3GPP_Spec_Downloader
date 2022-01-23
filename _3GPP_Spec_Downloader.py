@@ -81,7 +81,7 @@ try:
     soup = bs(html_obj_read, 'html.parser')
     a_link_list = [link for link in soup.find_all("a")]
     match_link_list=[k for k in a_link_list if (str(_3GPP_Series) + str(_3GPP_Doc_Num)) in k.get('href')]
-    print('Matching Link(s) Found on (www.3gpp.org)', '\n')
+    print('Matching Link(s) Found on (www.3gpp.org):', '\n')
     print(*match_link_list, sep='\n') 
     if not match_link_list:
         print('No Matching Link(s) Found on (www.3gpp.org)')
